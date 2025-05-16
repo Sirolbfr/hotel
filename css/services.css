@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Lemon Tuesday";
+  src: url(../fonts/Lemon_Tuesday.otf);
+}
+
 body {
-  background-color: #fff;
+  background-color: #eee;
+  font-family: 'Arial', sans-serif;
 
   & main {
     display: flex;
@@ -7,6 +13,9 @@ body {
     align-items: center;
     text-align: center;
 
+    & h1 {
+      font-family: 'Lemon Tuesday';
+    }
 
     & article {
       display: flex;
@@ -21,11 +30,11 @@ body {
         border: 0.5rem solid #fff;
         border-radius: 4vh;
         background-image: url();
-
       }
 
-      & h1 {
+      & h2 {
         font-size: 2rem;
+        font-family: 'Lemon Tuesday';
       }
     }
   }

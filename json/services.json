@@ -1,0 +1,26 @@
+{
+  "Snorkeling": {
+    "title": "Snorkelling écoresponsable",
+    "shortTitle":"Snorkelling",
+    "img": "./img/snorkeling.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+  },
+  "Pirogue": {
+    "title": "Promenade en pirogue",
+    "shortTitle":"Pirogue",
+    "img": "./img/pirogue.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+  },
+  "Stargazing": {
+    "title": "Observation des étoiles",
+    "shortTitle":"Stargazing",
+    "img": "./img/stargazing.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+  },
+  "Rando": {
+    "title": "Mont Otemanu",
+    "shortTitle":"Randonnée",
+    "img": "./img/otemanu.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+  }
+}
