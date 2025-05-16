@@ -1,5 +1,5 @@
 body {
-  background-color: #eee;
+  background-color: #fff;
 
   & main {
     display: flex;
@@ -20,6 +20,7 @@ body {
         width: 90%;
         border: 0.5rem solid #fff;
         border-radius: 4vh;
+        background-image: url();
 
       }
 
