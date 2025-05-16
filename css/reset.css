@@ -61,3 +61,7 @@ a {
 #__next {
   isolation: isolate;
 }
+
+ul {
+  padding-left: 0;
+}
