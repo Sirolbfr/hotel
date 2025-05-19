@@ -38,6 +38,23 @@
     }
   },
   "Services": {
-
+    "Massage": {
+      "title": "Massage au monoï",
+      "shortTitle":"Massage",
+      "img": "./img/massage.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+    },
+    "Massage2": {
+      "title": "Massage au monoï",
+      "shortTitle":"Massage",
+      "img": "./img/massage.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+    },
+    "Massage3": {
+      "title": "Massage au monoï",
+      "shortTitle":"Massage",
+      "img": "./img/massage.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+    }
   }
 }

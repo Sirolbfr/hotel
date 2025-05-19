@@ -1,28 +1,21 @@
-
-
 :root {
-  --bg_color2: #0B272E;
-  --accent_bg: #d5a650;
-  --accent: #ffdea1;
+  --bg_color2: #0C252B;
+  --accent1: #f5cd81;
+  --accent2: #c6c753;
+  --white: #fff;
 }
 
 body {
-  background-color: #0B272E;
+  background-color: var(--bg_color2);
   font-family: 'Nunito Sans';
-  color: white;
-
-  & header {
-    & p {
-      font-family: 'Alegreya';
-    }
-  }
+  color: var(--accent2);
 
   & main {
     text-align: center;
     
     & h1 {
       font-size: clamp(1.8rem,5vw,3rem);
-      color: var(--accent);
+      color: var(--accent1);
       font-family: 'Kiwi Maru';
       margin-top: 2%;
       margin-bottom: 5%;
@@ -50,7 +43,7 @@ body {
   
           & img {
             width: 100%;
-            border: 0.5rem solid #fff;
+            border: 0.5rem solid var(--accent1);
             border-radius: clamp(20px, 5vw, 40px);
             background-image: url();
           }
@@ -58,7 +51,8 @@ body {
           & h2 {
             position: absolute;
             bottom: 0;
-            background-color: var(--accent_bg);
+            color: var(--white);
+            background-color: var(--accent1);
             transform: translateY(50%);
             border-radius: 10px;
             font-size: clamp(1.6rem,4.5vw,3rem);

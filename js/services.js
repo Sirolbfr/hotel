@@ -1,3 +1,4 @@
+const ser_cont = document.getElementById("ser_cont");
 const act_cont = document.getElementById("act_cont");
 
 fetch('./json/services.json')
@@ -6,7 +7,8 @@ fetch('./json/services.json')
     data = Object.values(data);
     activités = Object.values(data[0]);
     services = Object.values(data[1]);
-    display_articles(activités);
+    display_articles(services, ser_cont);
+    display_articles(activités, act_cont);
 })
 .catch(error => {
     console.error('Erreur lors du fetch :', error)
@@ -24,6 +26,6 @@ function create_article(obj) {
     return art;
 }
 
-function display_articles(l) {
-    l.forEach(art => {act_cont.appendChild(create_article(art));});
+function display_articles(l, cont) {
+    l.forEach(art => {cont.appendChild(create_article(art));});
 }
