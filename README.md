@@ -2,7 +2,7 @@
 
 Créez le site vitrine de l’hôtel de vos rêves.
 
-![img_html](./images/brief_hotel.webp)
+![img_html](./img/brief_hotel.webp)
 
 ## 🏗️ Contexte du projet
 
