@@ -1,11 +1,22 @@
 .general {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #0a272d;
-  
+    z-index: 1;
 }
 
+.general::before {
+    background-image:url(https://cdn.discordapp.com/attachments/1354020112268791830/1374030265910956083/3b2a1470-8d16-4074-8f6c-dd0e0dc11d2e.png?ex=682c90e7&is=682b3f67&hm=5696d44866003f0f6a3792b8a8a9efb033bc436454ceb978af6a5112ec6b7ccf&);
+    content: " ";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    opacity: .4; 
+    z-index: -1;
+}
 .toto {
     width: calc(100% - 40%);
     display: flex;
@@ -17,16 +28,19 @@
 .sous-t {
     font-size: 7em;
     color: #c6c753;
+    font-family: Alegreya;
 }
 
 .sous-t1 {
-    color: #ffffff;
+    color: #000000;
     font-size: 2.7em;
+    font-family: Nunito Sans;
 }
 
 .sous-t2 {
-    color: #ffffff;
+    color: #000000;
     font-size: 1.7em;
+    font-family: Nunito Sans;
 }
 
 .photo {
