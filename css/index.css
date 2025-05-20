@@ -1,3 +1,7 @@
+* {
+    outline: red 1px solid;
+}
+
 main {
   position: relative;
   z-index: 1;  
@@ -36,12 +40,14 @@ main::before {
     font-size: 7em;
     color: #c6c753;
     font-family: Alegreya;
+    text-decoration: underline;
 }
 
 .sous-t1 {
     color: #000000;
     font-size: 2.7em;
     font-family: Nunito Sans;
+    text-decoration: underline;
 }
 
 .sous-t2 {
@@ -57,14 +63,7 @@ main::before {
    margin-top: 5%;
 }
 
-.picture1 {
-    width: 25vw;
-    border: solid 0.5em;
-    border-radius: 15%;
-    border-color: #c6c753;
-}
-
-.picture2 {
+.picture1, .picture2 {
     width: 25vw;
     border: solid 0.5em;
     border-radius: 15%;
@@ -87,6 +86,7 @@ main::before {
 .abt-titre {
     font-size: 6em;
     color: #c6c753;
+    text-decoration: underline;
 }
 
 .dedans {
@@ -107,15 +107,107 @@ main::before {
 
 .cordonnee {
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    padding-bottom: 20px;
+}
+
+.adresse {
+    display: flex;
     justify-content: center;
-    gap: 20%;
-    margin-top: 4%;
+    align-items: center;
+    gap: 40px;
 }
 
 .adresse1 {
     font-size: 1.4em;
 }
 
+.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
 .numero1 {
     font-size: 1.4em;
 }
+
+.icon1, .icon2 {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 815px) {
+    .sous-t {
+        font-size: 3em;
+    }
+
+    .sous-t1 {
+        font-size: 1.8em;
+    }
+
+    .sous-t2 {
+        font-size: 1.3em;
+    }
+    .picture1, .picture2 {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .general {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .toto {
+    gap: 20px;
+    }
+
+    .sous-t {
+        font-size: 2em;
+    }
+
+    .sous-t1 {
+        font-size: 1.5em;
+    }
+
+    .sous-t2 {
+        font-size: 0.8em;
+    }
+
+    .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .picture1, .picture2 {
+        width: 70%;
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .abt-titre {
+        font-size: 3em;
+        margin-top: 20PX;
+    }
+
+    .dedans{
+        order: 1;
+    }
+
+    .cordonnee {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+
+}
+    
