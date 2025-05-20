@@ -2,8 +2,6 @@
 
 Créez le site vitrine de l’hôtel de vos rêves.
 
-![img_html](./img/brief_hotel.webp)
-
 ## 🏗️ Contexte du projet
 
 J’ai pour projet d’ouvrir un hôtel… mais je manque cruellement d’idées !

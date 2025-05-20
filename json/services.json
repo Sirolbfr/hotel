@@ -1,51 +1,51 @@
 {
   "Activités": {
     "Snorkeling": {
-      "title": "Snorkeling écoresponsable",
+      "title": "Snorkeling",
       "img": "./img/snorkeling.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Explorez les fonds marins cristallins de Bora Bora avec masque et tuba, accompagné d’un guide local qui respecte les récifs coralliens et la faune fragile du lagon turquoise."
     },
     "Pirogue": {
       "title": "Promenade en pirogue",
       "img": "./img/pirogue.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Naviguez paisiblement au fil de l’eau à bord d’une pirogue traditionnelle polynésienne, entre les îlots sauvages et les panoramas majestueux du lagon de Bora Bora."
     },
     "Stargazing": {
       "title": "Observation des étoiles",
       "img": "./img/stargazing.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Allongez-vous sur le sable chaud et laissez-vous émerveiller par un ciel pur, guidé par un conteur polynésien qui révèle les légendes célestes des anciennes étoiles du Pacifique."
     },
     "Rando": {
       "title": "Mont Otemanu",
       "img": "./img/otemanu.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Partez à l’aventure sur les sentiers luxuriants du mont Otemanu pour découvrir la nature tropicale, la faune insulaire et des vues panoramiques à couper le souffle sur l’île."
     },
     "Campfire": {
       "title": "Histoires au feu de camp",
       "img": "./img/campfire.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Au bord du lagon, sous les étoiles, partagez un moment chaleureux autour d’un feu de camp, bercé par les récits et chants traditionnels des anciens de Bora Bora."
     },
     "Massage": {
       "title": "Massage au monoï",
       "img": "./img/massage.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Offrez-vous un moment de relaxation profonde grâce à un massage polynésien aux huiles de monoï tiède, avec une vue paisible sur les eaux claires du lagon."
     }
   },
   "Services": {
     "Room service": {
       "title": "Room service nature",
       "img": "./img/room_service.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+      "desc": "Savourez un repas sain et raffiné, livré dans un panier tressé à la main, avec des ingrédients locaux et biologiques, à déguster sur votre terrasse ou dans votre bungalow."
     },
-    "Massage2": {
-      "title": "Massage au monoï",
-      "img": "./img/massage.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+    "Bar": {
+      "title": "Bar à infusion",
+      "img": "./img/bar.jpg",
+      "desc": "Détendez-vous au bar avec une sélection d’infusions maison aux plantes polynésiennes, jus tropicaux frais ou cocktails à base de fruits bio et d’aromates du jardin."
     },
-    "Massage3": {
-      "title": "Massage au monoï",
-      "img": "./img/massage.jpg",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est itaque harum eligendi asperiores, nam illum. Laboriosam recusandae ad impedit, excepturi laudantium aliquid harum quos voluptatum cum molestias delectus maxime."
+    "Boutique": {
+      "title": "Boutique éthique",
+      "img": "./img/shop.jpg",
+      "desc": "Découvrez des souvenirs artisanaux conçus localement : vêtements en fibres naturelles, cosmétiques bio, objets en bois sculpté et bijoux inspirés de la culture polynésienne."
     }
   }
 }
