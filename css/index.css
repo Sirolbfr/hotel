@@ -1,6 +1,3 @@
-* {
-    outline: red 1px solid;
-}
 
 main {
   position: relative;
@@ -206,8 +203,10 @@ main::before {
         flex-direction: column;
     }
 
-    
-
+    .numero, .adresse {
+        justify-content: left;
+        margin-left: 60px;
+    }
 
 }
     
