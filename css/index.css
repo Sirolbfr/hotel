@@ -5,6 +5,7 @@ main {
 
 main::before {
     background-image: url(https://cdn.discordapp.com/attachments/1354020112268791830/1374030265910956083/3b2a1470-8d16-4074-8f6c-dd0e0dc11d2e.png?ex=682d39a7&is=682be827&hm=a2d9f5b5ba8c059e50a5b1926ebc8420bd001f10782532fcb97ae2066c49426d&);
+    background-size: cover;
     content: " ";
     position: absolute;
     top: 0; 
@@ -72,7 +73,6 @@ main::before {
 
 .next {
     width: 100%;
-    height: 60vh;
     z-index: 1;
     position: relative;
 }
@@ -91,14 +91,31 @@ main::before {
 
 .dedans {
     width: 80%;
-    height: 30vh;
-    border: solid 0.5em;
+    height: 40vh;
+    border: solid 0.6em;
     border-color: #c6c753;
-    border-radius: 10px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: 0 69%;
+}
+
+.sous-d {
+    width: 70%;
     font-size: 1.5em;
-    padding: 10px 20px;
-    background-image: url(https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
-    background-position: center;
-    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.cordonnee {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 4%;
+}
+
+.adresse1 {
+    font-size: 1.4em;
+}
+
+.numero1 {
+    font-size: 1.4em;
 }
