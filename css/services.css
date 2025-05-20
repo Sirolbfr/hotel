@@ -15,6 +15,10 @@ body {
       background: url(../img/triangle.svg);
     }
 
+    & h3 {
+      margin: 1% 5%;
+    }
+
     & section {
       display: flex;
       flex-direction: column;
@@ -72,7 +76,7 @@ body {
 
 /*----- Media Queries -----*/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 650px) {
   body main section {
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -80,8 +84,14 @@ body {
     & article {
       width: 42.5%;
 
-      & section h2 {
-        font-size: clamp(1.5rem,3.5vw,1.9rem);
+      & section {
+        & h2 {
+          font-size: clamp(1.5rem,3.25vw,1.9rem);
+        }
+
+        & p {
+          font-size: clamp(0.9rem, 1vw, 1.15rem);
+        }
       }
     }
   }
@@ -89,13 +99,19 @@ body {
 
 @media screen and (min-width: 1000px) {
   body main {
-    & h1 {
-      margin-bottom: 2vh;
+    & h3 {
+      margin: 2vh;
     }
     
     & section article {
       width: 28%;
       margin-bottom: 4vh;
+
+      & section {
+        & h2 {
+          font-size: clamp(1.4rem,2.5vw,1.9rem);
+        }
+      }
     }
   }
 }

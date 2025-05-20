@@ -18,7 +18,7 @@ function create_article(obj) {
     let art = document.createElement("article");
     art.innerHTML = `
         <section>
-            <img src=${obj.img} alt=${obj.shortName}>
+            <img src=${obj.img} alt=${obj.name}>
             <h2>${obj.title}</h2>
         </section>
         <p>${obj.desc}</p>
