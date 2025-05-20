@@ -107,11 +107,12 @@ body {
       width: 28%;
       margin-bottom: 4vh;
 
-      & section {
-        & h2 {
-          font-size: clamp(1.4rem,2.5vw,1.9rem);
-        }
+      & section h2 {
+        font-size: clamp(1.4rem,2.5vw,1.9rem);
       }
     }
   }
 }
+
+
+/* Ajouter animation dans le sens du triangle on scroll */
