@@ -1,13 +1,10 @@
-.general {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
+main {
+  position: relative;
+  z-index: 1;  
 }
 
-.general::before {
-    background-image:url(https://cdn.discordapp.com/attachments/1354020112268791830/1374030265910956083/3b2a1470-8d16-4074-8f6c-dd0e0dc11d2e.png?ex=682c90e7&is=682b3f67&hm=5696d44866003f0f6a3792b8a8a9efb033bc436454ceb978af6a5112ec6b7ccf&);
+main::before {
+    background-image: url(https://cdn.discordapp.com/attachments/1354020112268791830/1374030265910956083/3b2a1470-8d16-4074-8f6c-dd0e0dc11d2e.png?ex=682d39a7&is=682be827&hm=a2d9f5b5ba8c059e50a5b1926ebc8420bd001f10782532fcb97ae2066c49426d&);
     content: " ";
     position: absolute;
     top: 0; 
@@ -17,6 +14,15 @@
     opacity: .4; 
     z-index: -1;
 }
+
+.general {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
 .toto {
     width: calc(100% - 40%);
     display: flex;
@@ -62,4 +68,37 @@
     border: solid 0.5em;
     border-radius: 15%;
     border-color: #c6c753;
+}
+
+.next {
+    width: 100%;
+    height: 60vh;
+    z-index: 1;
+    position: relative;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.abt-titre {
+    font-size: 6em;
+    color: #c6c753;
+}
+
+.dedans {
+    width: 80%;
+    height: 30vh;
+    border: solid 0.5em;
+    border-color: #c6c753;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-image: url(https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    color: rgb(235, 235, 235);
 }
