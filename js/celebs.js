@@ -47,14 +47,7 @@ function random_nbrs(len, max) {
 }
 
 const tab = random_nbrs(6,30);
-console.log(tab);
-
-function test() {
-  random_nbrs(6,30).forEach (i => {
-    console.log(celebs[i]);
-    console.log(uppercased(celebs[i].name));
-  });
-}
+const i_anectdotes = random_nbrs(6,10);
 
 function uppercased(fullname) {
   let tab = [];
@@ -66,4 +59,12 @@ function uppercased(fullname) {
     tab.push(" ");
   })
   return tab.join("");
+}
+
+function create_celeb(celeb) {
+  const art = document.createElement("article");
+  art.innerHTML = `
+  
+  `
+  return art;
 }
