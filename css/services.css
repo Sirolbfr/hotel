@@ -1,13 +1,16 @@
 body {
-  background-image: url("../img/fond.png");
   font-family: 'Nunito Sans';
   color: var(--black);
+
+  & header {
+    height: 85vh;
+  }
 
   & main {
     text-align: center;
     
     & h1 {
-      font-size: clamp(1.8rem,5vw,3rem);
+      font-size: clamp(2.1rem,5vw,3.5rem);
       color: var(--accent2);
       font-family: 'Kiwi Maru';
       padding-top: 2%;
@@ -15,6 +18,10 @@ body {
       background: url(../img/triangle.svg);
     }
 
+    & #act_h1 {
+      margin-top: 4vh;
+    }
+    
     & h3 {
       margin: 1% 5%;
     }
@@ -30,7 +37,7 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 80%;
-        padding: 2vh 0;
+        margin: 2vh 0;
   
         & section {
           position: relative;
@@ -64,11 +71,6 @@ body {
           font-size: clamp(1rem, 2vw, 1.25rem);
         }
       }
-    }
-
-    & hr {
-      width: 80%;
-      justify-self: center;
     }
   }
 }
@@ -115,4 +117,17 @@ body {
 }
 
 
-/* Ajouter animation dans le sens du triangle on scroll */
+/* ------ Animations ------ */
+
+.hidden {
+  opacity: 0;
+  filter: blur(2px);
+  transform: translateY(-10%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}

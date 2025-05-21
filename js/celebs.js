@@ -14,7 +14,7 @@ const anectdotes = [
 ]
 
 
-/* ------ Fetch ------ */
+/* ------ API Fetch ------ */
 
 async function getData() {
   const url = "https://api.api-ninjas.com/v1/celebrity?min_net_worth=10000000000";
@@ -45,6 +45,9 @@ function random_nbrs(len, max) {
   }
   return res;
 }
+
+const tab = random_nbrs(6,30);
+console.log(tab);
 
 function test() {
   random_nbrs(6,30).forEach (i => {
