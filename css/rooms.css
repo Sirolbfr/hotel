@@ -1,0 +1,14 @@
+main {
+ 
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: clamp(2.1rem,5vw,3.5rem);
+    color: #c6c753;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background: url(../img/triangle.svg);
+}
+
