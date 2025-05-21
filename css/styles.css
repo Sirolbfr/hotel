@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Nunito+Sans:opsz,wght@6..12,200..1000&display=swap');
 
 :root {
+    --title: #C6C753;
     --accent1: #f5cd81;
     --accent2: #bec13e;
     --white: #fff;
     --black: #000;
 }
 
-body {background-image: url("../img/fond.png");}
+main {background-image: url("../img/fond.png");}
 
 header {
     width: 100%;

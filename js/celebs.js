@@ -13,6 +13,8 @@ const anectdotes = [
   "Cet hôte a décidé de dormir une nuit sur sa terrasse à la belle étoile, enveloppé dans un plaid, juste pour entendre les sons de la nuit et admirer la lune au-dessus du lagon."
 ]
 
+const main = document.querySelector("main");
+
 
 /* ------ API Fetch ------ */
 
@@ -29,6 +31,7 @@ async function getData() {
 }
 getData().then(data => {
   celebs = Object.values(data);
+  display_celebs();
 })
 getData().catch(error => {
     console.error('Erreur lors du fetch :', error)
@@ -64,7 +67,17 @@ function uppercased(fullname) {
 function create_celeb(celeb) {
   const art = document.createElement("article");
   art.innerHTML = `
-  
+    <p>${celeb.name}</p>
   `
   return art;
+}
+
+function display_celebs() {
+  let rndm_celebs = [];
+  tab.forEach(i => {
+    rndm_celebs.push(celebs[i]);
+  });
+  rndm_celebs.forEach(celeb => {
+    main.appendChild(create_celeb(celeb));
+  });
 }
