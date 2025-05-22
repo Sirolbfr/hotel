@@ -1,7 +1,7 @@
 const main = document.querySelector("main");
 
 async function showcarte() {
-    const url = "../json/rooms.json";
+    const url = "json/rooms.json";
     const reponse = await fetch(url, {
         method: "GET",
         headers: {
