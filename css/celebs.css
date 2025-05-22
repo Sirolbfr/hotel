@@ -88,6 +88,10 @@ body {
         }
       }
 
+      & article.reverse {
+        flex-direction: row-reverse;
+      }
+
       & hr { 
         background: url('../img/leaf.png') no-repeat center center;
         background-size: contain;
