@@ -2,43 +2,45 @@
 <html lang="fr">
   <head>
     <title>Célebrités</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./css/styles.css" rel="stylesheet">
-    <link href="./css/reset.css" rel="stylesheet">
-    <link href="./css/celebs.css" rel="stylesheet">
-    <link rel="icon" href="./img/favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/celebs.css" rel="stylesheet" />
+    <link rel="icon" href="./img/favicon.png" />
+
     <script defer src="js/script.js"></script>
     <script defer src="js/celebs.js"></script>
+    <script src="js/star-rating.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <section class="logo-nav">
-          <img class="logo" src="./img/logo.png" alt="logo">
-         <div class="nav-links">
+          <img class="logo" src="./img/logo.png" alt="logo" />
+          <div class="nav-links">
             <ul>
-             <li><a href="./index.html">Accueil</a></li>
-             <li><a href="./rooms.html">Hébergement</a></li>
-             <li><a href="./services.html">Services</a></li>
-             <li><a href="./catering.html">Restauration</a></li>
-             <li><a href="./celebs.html">Célébrités</a></li>
+              <li><a href="./index.html">Accueil</a></li>
+              <li><a href="./rooms.html">Hébergement</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./catering.html">Restauration</a></li>
+              <li><a href="./celebs.html">Célébrités</a></li>
             </ul>
           </div>
         </section>
       </nav>
-      <img class="hamburger" src="./img/burger.png" alt="hamburger menu">
+      <img class="hamburger" src="./img/burger.png" alt="hamburger menu" />
       <section class="text">
-        <p class="titre">HOTEL<br>NATURE<br>ET EVASION</p>
+        <p class="titre">HOTEL<br />NATURE<br />ET EVASION</p>
         <p class="s-t">UN REFUGE ENTRE CIEL, TERRE ET SILENCE</p>
       </section>
     </header>
     <main>
-      <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo, nisi aliquam facere quibusdam voluptas et commodi voluptate reiciendis ullam quas provident consequuntur, recusandae suscipit facilis ipsum corrupti, optio temporibus.</section>
-      <star-rating stars="5" rating="3.5" bgcolor="green" nocolor="grey" color="gold"></star-rating>
+      <h1>Célébrités</h1>
+      <section id="celebs_cont"></section>
+      <star-rating rating="3.5"></star-rating>
     </main>
     <footer></footer>
-    
-
   </body>
 </html>

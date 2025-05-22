@@ -76,7 +76,7 @@ body {
 }
 
 
-/*----- Media Queries -----*/
+/* ------ Media Queries ------ */
 
 @media screen and (min-width: 650px) {
   body main section {
