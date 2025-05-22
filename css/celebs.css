@@ -76,18 +76,34 @@ body {
               }
   
               & star-rating{
-                width: 33%;
+                width: 25%;
               }
             }
           
             & p{
               width: 75%;
+              font-size: clamp(1.2rem,5vw,1.5rem);
             }
           }
 
         }
       }
     }
-
   }
+}
+
+
+/* ------ Animations ------ */
+
+.hidden {
+  opacity: 0;
+  filter: blur(2px);
+  transform: translateY(-10%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }

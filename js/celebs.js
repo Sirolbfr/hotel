@@ -112,6 +112,7 @@ function create_celeb(celeb) {
   i_anectdotes.shift();
   i_avis.shift();
   i_img.shift();
+  observer.observe(art);
   return art;
 }
 
