@@ -1,0 +1,29 @@
+{
+    "rooms0": {
+        "h2": "chambre standard",
+        "h3": "À partier de 190€ / nuit",
+        "p": "Nichée au cœur d'un jardin tropical luxuriant, notre chambre Standard est idéale pour les voyageurs à la recherche de confort et de simplicité. Profitez d'un lit queen-size, d'une salle de bain moderne et d'une terrasse privée pour savourer la douceur de Bora Bora. Le tout dans un cadre paisible et dépaysant.",
+        "img": "./img/chambre1.jpg"
+    },
+
+    "rooms1": {
+        "h2": "Chambre Premium",
+        "h3": "À partir de 290€ / nuit",
+        "p": "Spacieuse, lumineuse et décorée avec goût, la chambre Premium offre une vue à couper le souffle sur le lagon cristallin ou les montagnes verdoyantes de l'île. Elle dispose d'un lit king-size, d'un balcon aménagé et de prestations haut de gamme pour un séjour tout en douceur.",
+        "img": "./img/chambre2.jpg"
+    },
+
+    "rooms2": {
+        "h2": "Chambre Duplex",
+        "h3": "À partir de 420€ / nuit",
+        "p": "Parfait pour les familles ou les couples en quête d'espace, notre Duplex se déploie sur deux niveaux : un salon moderne au rez-de-chaussée et une chambre à l'étage avec vue panoramique. Sa grande terrasse invite à la détente face aux paysages de rêve de Bora Bora.",
+        "img": "./img/chambre3.jpg"
+    },
+
+    "rooms3": {
+        "h2": "Chambre Suite",
+        "h3": "À partir de 680€ / nuit",
+        "p": "Vivez l'expérience ultime dans notre Suite de luxe sur pilotis. Dotée d'un vaste espace de vie, d'un jacuzzi privatif face au lagon, et d'un accès direct à l'eau turquoise, elle est idéale pour les séjours romantiques ou les moments inoubliables. Un refuge d'exception, entre ciel et mer.",
+        "img": "./img/chambre4.jpg"
+    }
+}
