@@ -27,7 +27,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 7.5vh;
+      gap: 4vh;
 
       & article {
         display: flex;
@@ -89,10 +89,10 @@ body {
       }
 
       & hr { 
-        background: url('https://i.sstatic.net/37Aip.png') no-repeat center center;
+        background: url('../img/leaf.png') no-repeat center center;
         background-size: contain;
         display: block;
-        height: 18px;
+        height: 5vh;
         width: 85%;
         border: 0;
         position: relative;
@@ -103,25 +103,41 @@ body {
           position: absolute;
           background: #d7d7d7;
           height: 2px;
-          top: 8px;
+          top: 45%;
         }
 
         &:before {
           left: 0;
           right: 50%;
-          margin-right: 10px;
+          margin-right: 30px;
         }
         
         &:after {
           right: 0;
           left: 50%;
-          margin-left: 10px;
+          margin-left: 30px;
         }
       }
     }
   }
 }
 
+
+/* ------ Media queries ------ */
+@media screen and (min-width: 950px) {
+  body main #celebs_cont article {
+    flex-direction: row;
+    gap: 5vw;
+
+    & section {
+      width: 50%;
+    }
+
+    & p {
+      font-size: clamp(1rem,4vw,1.5rem);
+    }
+  }
+}
 
 /* ------ Animations ------ */
 

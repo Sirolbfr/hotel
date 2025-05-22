@@ -91,7 +91,7 @@ function uppercased(fullname) {
 
 function create_celeb(celeb) {
   const art = document.createElement("article");
-  art.classList.add('hidden');
+  art.classList = `"hidden"` ;
   const rating = Math.floor(Math.random() * 10) / 10 + 4; // Min : 4, Max : 5
   art.innerHTML = `
   <section style="transform: rotateZ(${Math.floor(Math.random() * 70)/10 - 3.5}deg);">
