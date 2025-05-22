@@ -112,6 +112,7 @@ function create_celeb(celeb) {
   i_anectdotes.shift();
   i_avis.shift();
   i_img.shift();
+  observer.observe(art);
   return art;
 }
 
@@ -122,6 +123,10 @@ function display_celebs() {
   });
   rndm_celebs.forEach((celeb) => {
     celebs_cont.appendChild(create_celeb(celeb));
+    if(!(celeb == rndm_celebs[rndm_celebs.length - 1])) {
+      const hr = document.createElement("hr");
+      celebs_cont.appendChild(hr);
+    }
   });
 }
 

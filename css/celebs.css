@@ -23,35 +23,35 @@ body {
       background: url(../img/triangle.svg);
     }
 
-    & #celebs_cont{
+    & #celebs_cont {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 5vh;
+      gap: 7.5vh;
 
-      & article{
+      & article {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 85%;
-        gap: 2.5vh;
+        gap: 2vh;
 
-        & section{
+        & section {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           gap: 0.75vh;
 
-          & figure{
+          & figure {
             position: relative;
 
-            & img{
+            & img {
               width: 50vw;
             }
 
-            & img:nth-child(2){
+            & img:nth-child(2) {
               position: absolute;
               top: 0;
               left: 0;
@@ -60,34 +60,80 @@ body {
             }
           }
 
-          & .celeb-info{
+          & .celeb-info {
             flex-flow: row wrap;
-            width: 75vw;
+            width: 80vw;
 
-            & .name_rating{
+            & .name_rating {
               display: flex;
               flex-direction: row;
               justify-content: center;
               align-items: center;
               width: 100%;
 
-              & h2{
+              & h2, p {
                 width: max-content;
               }
   
               & star-rating{
-                width: 33%;
+                width: 25%;
               }
             }
           
-            & p{
+            & p {
               width: 75%;
+              font-size: clamp(1.2rem,5vw,1.5rem);
             }
           }
+        }
+      }
 
+      & hr { 
+        background: url('https://i.sstatic.net/37Aip.png') no-repeat center center;
+        background-size: contain;
+        display: block;
+        height: 18px;
+        width: 85%;
+        border: 0;
+        position: relative;
+
+        &:before, &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          background: #d7d7d7;
+          height: 2px;
+          top: 8px;
+        }
+
+        &:before {
+          left: 0;
+          right: 50%;
+          margin-right: 10px;
+        }
+        
+        &:after {
+          right: 0;
+          left: 50%;
+          margin-left: 10px;
         }
       }
     }
-
   }
+}
+
+
+/* ------ Animations ------ */
+
+.hidden {
+  opacity: 0;
+  filter: blur(2px);
+  transform: translateY(-10%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }
