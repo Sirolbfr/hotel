@@ -17,6 +17,8 @@ main::before {
 }
 
 .general {
+    padding: 5%;
+    gap: 5%;
     position: relative;
     width: 100%;
     display: flex;
@@ -30,10 +32,11 @@ main::before {
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
+    width: 60%;
 }
 
 .sous-t {
-    font-size: 7em;
+    font-size: clamp(3em,6vw,6.5em);
     color: #c6c753;
     font-family: Alegreya;
     text-decoration: underline;
@@ -41,26 +44,27 @@ main::before {
 
 .sous-t1 {
     color: #000000;
-    font-size: 2.7em;
+    font-size: clamp(1.5em,3vw,4em);
     font-family: Nunito Sans;
     text-decoration: underline;
 }
 
 .sous-t2 {
     color: #000000;
-    font-size: 1.7em;
+    font-size: clamp(1.3em,2.7vw,2em);
     font-family: Nunito Sans;
 }
 
 .photo {
    display: flex; 
+   justify-content: center;
    flex-direction: column;
    gap: 25px;
    margin-top: 5%;
+   width: 40%;
 }
 
 .picture1, .picture2 {
-    width: 25vw;
     border: solid 0.5em;
     border-radius: 15%;
     border-color: #c6c753;
@@ -97,7 +101,7 @@ main::before {
 
 .sous-d {
     width: 70%;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
 }
 
@@ -135,23 +139,6 @@ main::before {
     height: 50px;
 }
 
-@media screen and (max-width: 815px) {
-    .sous-t {
-        font-size: 3em;
-    }
-
-    .sous-t1 {
-        font-size: 1.8em;
-    }
-
-    .sous-t2 {
-        font-size: 1.3em;
-    }
-    .picture1, .picture2 {
-        width: 30vw;
-    }
-}
-
 @media screen and (max-width: 700px) {
     .general {
         display: flex;
@@ -163,27 +150,13 @@ main::before {
     gap: 20px;
     }
 
-    .sous-t {
-        font-size: 2em;
-    }
-
-    .sous-t1 {
-        font-size: 1.5em;
-    }
-
-    .sous-t2 {
-        font-size: 0.8em;
-    }
-
     .photo {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .picture1, .picture2 {
         width: 70%;
     }
-    
+
     .about {
         display: flex;
         flex-direction: column;
