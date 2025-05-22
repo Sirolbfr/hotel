@@ -8,7 +8,11 @@ async function showcarte() {
             "content-type":"application/json",
         },
     });
-     return reponse.json();
+    if(reponse.ok) {
+        return reponse.json();
+    } else {
+        throw new Error("Erreur lors de la récupération des données");
+    }
 };
     
 showcarte().then((data) => {
