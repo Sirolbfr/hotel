@@ -20,18 +20,17 @@ showcarte().then((data) => {
 
 let i=0;
 function create_section(rooms) {
-    const section = document.createElement("section");
+    const section = document.createElement("article");
+    section.className= `rooms${i} rooms ${i%2 !== 0 ? "reverse" : ""}`;
     section.innerHTML = `
-     <section class="rooms${i}">
-      <div class="room-pic">
-        <img src=${rooms.img}>
-      </div>
-      <div class="room-text">
+    <div class="room-pic">
+        <img src=${rooms.img}> 
+    </div>
+    <div class="room-text">
         <h2>${rooms.h2}</h2>
         <h3>${rooms.h3}</h3>
         <p>${rooms.p}</p>
-      </div>  
-     </section> 
+    </div>  
     `;
     i++;
     return section;
