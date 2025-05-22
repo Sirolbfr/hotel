@@ -89,9 +89,10 @@ function uppercased(fullname) {
   return tab.join("");
 }
 
+let i = 0;
 function create_celeb(celeb) {
   const art = document.createElement("article");
-  art.classList = `"hidden"` ;
+  art.classList = `hidden ${i%2 !== 0 ? "reverse" : ""}`;
   const rating = Math.floor(Math.random() * 10) / 10 + 4; // Min : 4, Max : 5
   art.innerHTML = `
   <section style="transform: rotateZ(${Math.floor(Math.random() * 70)/10 - 3.5}deg);">
@@ -113,6 +114,7 @@ function create_celeb(celeb) {
   i_avis.shift();
   i_img.shift();
   observer.observe(art);
+  i++;
   return art;
 }
 
