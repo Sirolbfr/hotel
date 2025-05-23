@@ -19,6 +19,13 @@ body {
       padding-bottom: 4%;
       background: url(../img/triangle.svg);
     }
+
+    & section{
+
+      & div {
+        display: flex;
+      }
+    }
   }
 }
 

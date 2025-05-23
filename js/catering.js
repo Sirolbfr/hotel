@@ -37,34 +37,17 @@ function create_pt_dej(menu) {
     return art;
 }
 
-function create_dej(menu) {
+function create_dej_din(menu) {
     menu = Object.values(menu);
     let art = document.createElement("article");
     art.classList.add('hidden');
     art.innerHTML = `
         <h2>${menu[0]}</h2>
         <section>
-            <p>Boisson fraîche : ${menu[1]}</p>
-            <p>Collation 1 : ${menu[2]}</p>
-            <p>Collation 2 : ${menu[3]}</p>
-            <p>Boisson chaude : ${menu[4]}</p>
-        </section>
-    `;
-    observer.observe(art);
-    return art;
-}
-
-function create_dinner(menu) {
-    menu = Object.values(menu);
-    let art = document.createElement("article");
-    art.classList.add('hidden');
-    art.innerHTML = `
-        <h2>${menu[0]}</h2>
-        <section>
-            <p>Boisson fraîche : ${menu[1]}</p>
-            <p>Collation 1 : ${menu[2]}</p>
-            <p>Collation 2 : ${menu[3]}</p>
-            <p>Boisson chaude : ${menu[4]}</p>
+            <p>Entrée : ${menu[1]}</p>
+            <p>Plat : ${menu[2]}</p>
+            <p>Dessert : ${menu[3]}</p>
+            <p>Boisson : ${menu[4]}</p>
         </section>
     `;
     observer.observe(art);
@@ -72,17 +55,18 @@ function create_dinner(menu) {
 }
 
 function display_menus(obj) {
-    if (obj === data[0]) {
+    obj = Object.values(obj);
+    if (obj[0].title === "Matin Logan") {
         obj.forEach (menu => {
             pt_dej.appendChild(create_pt_dej(menu));
         })
-    } else if (obj === data[1]) {
+    } else if (obj[1].title === "Saveur du Pacifique") {
         obj.forEach (menu => {
-            dej.appendChild(create_dej(menu));
+            dej.appendChild(create_dej_din(menu));
         })
     } else {
         obj.forEach (menu => {
-            diner.appendChild(create_diner(menu));
+            diner.appendChild(create_dej_din(menu));
         })
     }
 }
