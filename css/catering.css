@@ -39,6 +39,12 @@ body {
         font-size: clamp(1.75rem,4.5vw,2.2rem);
       }
 
+      & hr {
+        height: 3px;
+        width: 25vw;
+        background-color: #000;
+      }
+
       & div {
         display: flex;
         justify-content: space-evenly;
@@ -100,5 +106,5 @@ body {
 .show {
   opacity: 1;
   filter: blur(0);
-  transform: translateY(0);
+  transform: translateY(0%);
 }
