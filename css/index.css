@@ -33,6 +33,7 @@ main::before {
     align-items: center;
     margin-top: 5%;
     width: 60%;
+    gap: 10%;
 }
 
 .sous-t {
