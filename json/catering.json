@@ -1,0 +1,72 @@
+{
+    "Petit-déjeuner": {
+      "Matin Logan": {
+        "title": "Matin Logan",
+        "Boisson fraîche": "Jus de fruit frais (ananas ou papaye)",
+        "gâteau": "Viennoiseries francaises (croissant, pain au chocolat)",
+        "produit": "Tartine baguette,beurre local, canfiture à la goyave",
+        "Boisson chaude": "café, thé vanille ou chocolat chaud"
+      },
+      "Évasion Tropicale": {
+        "title": "Évasion Tropicale",
+        "Boisson fraîche": "Smoothie mangue-banane",
+        "gâteau": "Yaourt nature, granola maison, copeaux de coco",
+        "produit": "Salade de fruits exotiques (mangue, papaye, passion)",
+        "Boisson chaude": "Thé vert au citron"
+      },
+      "Petit Déj des Îles": {
+        "title": "Petit Déj des Îles",
+        "Boisson fraîche": "Jus de goyave ou eau de coco",
+        "gâteau": "Poisson fumé local façon sashimi",
+        "produit": "Omelette à la ciboulette et au lait de coco",
+        "Boisson chaude": "Café tahitien ou infusion gingembre-citronnelle"
+      }
+    },
+    "Déjeuner": {
+      "Déjeuner Lagoon Express": {
+        "title": "Déjeuner Lagoon Express",
+        "Entrée": "Salade fraîche de papaye verte & citron vert",
+        "Plat": "Poisson grillé (mahi-mahi ou thon) riz coco",
+        "Dessert": "Sorbet maison à la mangue",
+        "Boisson": "Vin blanc sec (Sauvignon Blanc) ou eau pétillante citron vert"
+      },
+      "Classique Créole-Français": {
+        "title": "Classique Créole-Français",
+        "Entrée": "Tartare de poisson à la tahitienne (lait de coco, citron, concombre)",
+        "Plat": "Poulet rôti à la vanille et purée de patate douc",
+        "Dessert": "Tarte à l'ananas caramélis",
+        "Boisson": "Vin rosé de Provence ou thé glacé à la vanille maison"
+      },
+      "Végétarien Exotique": {
+        "title": "Végétarien Exotique",
+        "Entrée": "Gaspacho de pastèque & menthe",
+        "Plat": "Curry de légumes locaux au lait de coco",
+        "Dessert": "Flan coco",
+        "Boisson": "Vin blanc moelleux ou sec léger ou cocktail sans alcool (ananas-gingembre-menthe)"
+      }
+    },
+    "Dîner": {
+      "Saveur du Pacifique": {
+        "title": "Saveur du Pacifique",
+        "Entrée": "Accras de poisson, sauce citron vert",
+        "Plat": "Filet de thon rouge mi-cuit, purée de taro",
+        "Dessert": "Crème brûlée à la vanille de Tahiti",
+        "Boisson": "Vin blanc aromatique (Viognier ou Riesling) ou limonade maison au citron vert"
+      },
+      "Dîner Métis (franco-polynésien)": {
+        "title": "Dîner Métis (franco-polynésien)",
+        "Entrée": "Ravioles au poisson et bouillon citronnelle",
+        "Plat": "Magret de canard sauce miel-gingembre et légumes racines",
+        "Dessert": "Moelleux chocolat noir et coulis de mangue",
+        "Boisson": "Vin rouge léger (Pinot Noir ou Côtes-du-Rhône) ou eau gazeuse + sirop de passion"
+      },
+      "Menu Bora Bora Signature": {
+        "title": "Menu Bora Bora Signature",
+        "Entrée": "Carpaccio de mahi-mahi, vinaigrette passion",
+        "Plat": "Langouste grillée et riz parfumé à la coco",
+        "Dessert": "Pavlova aux fruits exotiques",
+        "Boisson": "Vin blanc raffiné (Sancerre ou Chablis) ou cocktail sans alcool signature (mangue-passion-gingembre)"
+      }
+    }
+  }
+  
