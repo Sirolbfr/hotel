@@ -4,8 +4,8 @@
         "title": "Matin Logan",
         "Boisson fraîche": "Jus de fruit frais (ananas ou papaye)",
         "gâteau": "Viennoiseries francaises (croissant, pain au chocolat)",
-        "produit": "Tartine baguette,beurre local, confiture à la goyave",
-        "Boisson chaude": "Café, thé vanille ou chocolat chaud"
+        "produit": "Tartine baguette, beurre local, confiture à la goyave",
+        "Boisson chaude": "Café,thé vanille ou chocolat chaud"
       },
       "Évasion Tropicale": {
         "title": "Évasion Tropicale",
@@ -18,7 +18,7 @@
         "title": "Petit Déj des Îles",
         "Boisson fraîche": "Jus de goyave ou eau de coco",
         "gâteau": "Poisson fumé local façon sashimi",
-        "produit": "Omelette à la ciboulette et au lait de coco",
+        "produit": "Omelette à la ciboulette au lait de coco",
         "Boisson chaude": "Café tahitien ou infusion gingembre-citronnelle"
       }
     },
@@ -26,16 +26,16 @@
       "Classique Créole-Français": {
         "title": "Classique Créole-Français",
         "Entrée": "Tartare de poisson à la tahitienne (lait de coco, citron, concombre)",
-        "Plat": "Poulet rôti à la vanille et purée de patate douc",
-        "Dessert": "Tarte à l'ananas caramélis",
+        "Plat": "Poulet rôti à la vanille et purée de patate douce",
+        "Dessert": "Tarte à l'ananas caramélisée",
         "Boisson": "Vin rosé de Provence ou thé glacé à la vanille maison"
       },
       "Déjeuner Lagoon Express": {
         "title": "Déjeuner Lagoon Express",
         "Entrée": "Salade fraîche de papaye verte & citron vert",
-        "Plat": "Poisson grillé (mahi-mahi ou thon) riz coco",
+        "Plat": "Poisson grillé (mahi-mahi ou thon) et riz coco",
         "Dessert": "Sorbet maison à la mangue",
-        "Boisson": "Vin blanc sec (Sauvignon Blanc) ou eau pétillante citron vert"
+        "Boisson": "Vin blanc sec (Sauvignon Blanc) ou eau pétillante au citron vert"
       },
       "Végétarien Exotique": {
         "title": "Végétarien Exotique",
