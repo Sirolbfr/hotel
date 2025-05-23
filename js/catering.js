@@ -2,7 +2,6 @@
 const pt_dej = document.querySelector("#pt_dej");
 const dej = document.querySelector("#dej");
 const diner = document.querySelector("#diner");
-const bar = document.querySelector("#bar");
 
 
 /* ------ Json Fetch ------ */
@@ -11,9 +10,9 @@ fetch("json/catering.json")
 .then(data => {
     console.log(data);
     data = Object.values(data);
-    display_menus(data[0], pt_dej);
-    display_menus(data[1], dej);
-    display_menus(data[2], diner);
+    display_menus(data[0]);
+    display_menus(data[1]);
+    display_menus(data[2]);
 })
 .catch(error => {
     console.error("Erreur lors de la récupération des données :", error);
@@ -21,25 +20,71 @@ fetch("json/catering.json")
 
 
 /* ------ Main ------ */
-function create_article(obj) {
+function create_pt_dej(menu) {
+    menu = Object.values(menu);
     let art = document.createElement("article");
     art.classList.add('hidden');
     art.innerHTML = `
-        <h1>${a}</h1>
+        <h2>${menu[0]}</h2>
         <section>
-            <img src=${obj.img} alt=img_test>
-            <h2>Test H2</h2>
+            <p>Boisson fraîche : ${menu[1]}</p>
+            <p>Collation 1 : ${menu[2]}</p>
+            <p>Collation 2 : ${menu[3]}</p>
+            <p>Boisson chaude : ${menu[4]}</p>
         </section>
-        <p>Test P</p>
     `;
     observer.observe(art);
     return art;
 }
 
-function display_menus(obj, cont) {
-    obj.forEach (menu => {
-        cont.appendChild(create_article(menu));
-    })
+function create_dej(menu) {
+    menu = Object.values(menu);
+    let art = document.createElement("article");
+    art.classList.add('hidden');
+    art.innerHTML = `
+        <h2>${menu[0]}</h2>
+        <section>
+            <p>Boisson fraîche : ${menu[1]}</p>
+            <p>Collation 1 : ${menu[2]}</p>
+            <p>Collation 2 : ${menu[3]}</p>
+            <p>Boisson chaude : ${menu[4]}</p>
+        </section>
+    `;
+    observer.observe(art);
+    return art;
+}
+
+function create_dinner(menu) {
+    menu = Object.values(menu);
+    let art = document.createElement("article");
+    art.classList.add('hidden');
+    art.innerHTML = `
+        <h2>${menu[0]}</h2>
+        <section>
+            <p>Boisson fraîche : ${menu[1]}</p>
+            <p>Collation 1 : ${menu[2]}</p>
+            <p>Collation 2 : ${menu[3]}</p>
+            <p>Boisson chaude : ${menu[4]}</p>
+        </section>
+    `;
+    observer.observe(art);
+    return art;
+}
+
+function display_menus(obj) {
+    if (obj === data[0]) {
+        obj.forEach (menu => {
+            pt_dej.appendChild(create_pt_dej(menu));
+        })
+    } else if (obj === data[1]) {
+        obj.forEach (menu => {
+            dej.appendChild(create_dej(menu));
+        })
+    } else {
+        obj.forEach (menu => {
+            diner.appendChild(create_diner(menu));
+        })
+    }
 }
 
 
