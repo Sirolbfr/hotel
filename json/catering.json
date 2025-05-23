@@ -4,8 +4,8 @@
         "title": "Matin Logan",
         "Boisson fraîche": "Jus de fruit frais (ananas ou papaye)",
         "gâteau": "Viennoiseries francaises (croissant, pain au chocolat)",
-        "produit": "Tartine baguette,beurre local, canfiture à la goyave",
-        "Boisson chaude": "café, thé vanille ou chocolat chaud"
+        "produit": "Tartine baguette,beurre local, confiture à la goyave",
+        "Boisson chaude": "Café, thé vanille ou chocolat chaud"
       },
       "Évasion Tropicale": {
         "title": "Évasion Tropicale",
@@ -23,19 +23,19 @@
       }
     },
     "Déjeuner": {
-      "Déjeuner Lagoon Express": {
-        "title": "Déjeuner Lagoon Express",
-        "Entrée": "Salade fraîche de papaye verte & citron vert",
-        "Plat": "Poisson grillé (mahi-mahi ou thon) riz coco",
-        "Dessert": "Sorbet maison à la mangue",
-        "Boisson": "Vin blanc sec (Sauvignon Blanc) ou eau pétillante citron vert"
-      },
       "Classique Créole-Français": {
         "title": "Classique Créole-Français",
         "Entrée": "Tartare de poisson à la tahitienne (lait de coco, citron, concombre)",
         "Plat": "Poulet rôti à la vanille et purée de patate douc",
         "Dessert": "Tarte à l'ananas caramélis",
         "Boisson": "Vin rosé de Provence ou thé glacé à la vanille maison"
+      },
+      "Déjeuner Lagoon Express": {
+        "title": "Déjeuner Lagoon Express",
+        "Entrée": "Salade fraîche de papaye verte & citron vert",
+        "Plat": "Poisson grillé (mahi-mahi ou thon) riz coco",
+        "Dessert": "Sorbet maison à la mangue",
+        "Boisson": "Vin blanc sec (Sauvignon Blanc) ou eau pétillante citron vert"
       },
       "Végétarien Exotique": {
         "title": "Végétarien Exotique",
@@ -46,13 +46,6 @@
       }
     },
     "Dîner": {
-      "Saveur du Pacifique": {
-        "title": "Saveur du Pacifique",
-        "Entrée": "Accras de poisson, sauce citron vert",
-        "Plat": "Filet de thon rouge mi-cuit, purée de taro",
-        "Dessert": "Crème brûlée à la vanille de Tahiti",
-        "Boisson": "Vin blanc aromatique (Viognier ou Riesling) ou limonade maison au citron vert"
-      },
       "Dîner Métis (franco-polynésien)": {
         "title": "Dîner Métis (franco-polynésien)",
         "Entrée": "Ravioles au poisson et bouillon citronnelle",
@@ -66,6 +59,13 @@
         "Plat": "Langouste grillée et riz parfumé à la coco",
         "Dessert": "Pavlova aux fruits exotiques",
         "Boisson": "Vin blanc raffiné (Sancerre ou Chablis) ou cocktail sans alcool signature (mangue-passion-gingembre)"
+      },
+      "Saveur du Pacifique": {
+        "title": "Saveur du Pacifique",
+        "Entrée": "Accras de poisson, sauce citron vert",
+        "Plat": "Filet de thon rouge mi-cuit, purée de taro",
+        "Dessert": "Crème brûlée à la vanille de Tahiti",
+        "Boisson": "Vin blanc aromatique (Viognier ou Riesling) ou limonade maison au citron vert"
       }
     }
   }

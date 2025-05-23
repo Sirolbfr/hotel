@@ -25,12 +25,12 @@ function create_pt_dej(menu) {
     let art = document.createElement("article");
     art.classList.add('hidden');
     art.innerHTML = `
-        <h2>${menu[0]}</h2>
+        <h3>${menu[0]}</h3>
         <section>
-            <p>Boisson fraîche : ${menu[1]}</p>
-            <p>Collation 1 : ${menu[2]}</p>
-            <p>Collation 2 : ${menu[3]}</p>
-            <p>Boisson chaude : ${menu[4]}</p>
+            <p><b>Boisson fraîche :</b> ${menu[1]}</p>
+            <p><b>Collation 1 :</b> ${menu[2]}</p>
+            <p><b>Collation 2 :</b> ${menu[3]}</p>
+            <p><b>Boisson chaude :</b> ${menu[4]}</p>
         </section>
     `;
     observer.observe(art);
@@ -42,12 +42,12 @@ function create_dej_din(menu) {
     let art = document.createElement("article");
     art.classList.add('hidden');
     art.innerHTML = `
-        <h2>${menu[0]}</h2>
+        <h3>${menu[0]}</h3>
         <section>
-            <p>Entrée : ${menu[1]}</p>
-            <p>Plat : ${menu[2]}</p>
-            <p>Dessert : ${menu[3]}</p>
-            <p>Boisson : ${menu[4]}</p>
+            <p><b>Entrée :</b> ${menu[1]}</p>
+            <p><b>Plat :</b> ${menu[2]}</p>
+            <p><b>Dessert :</b> ${menu[3]}</p>
+            <p><b>Boisson :</b> ${menu[4]}</p>
         </section>
     `;
     observer.observe(art);
@@ -60,7 +60,7 @@ function display_menus(obj) {
         obj.forEach (menu => {
             pt_dej.appendChild(create_pt_dej(menu));
         })
-    } else if (obj[1].title === "Saveur du Pacifique") {
+    } else if (obj[0].title === "Classique Créole-Français") {
         obj.forEach (menu => {
             dej.appendChild(create_dej_din(menu));
         })
