@@ -1,0 +1,46 @@
+body {
+  font-family: 'Nunito Sans';
+  color: var(--black);
+
+  & header {
+    height: 85vh;
+  }
+
+  & main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    & h1 {
+      font-size: clamp(2.1rem,5vw,3.5rem);
+      color: var(--title);
+      font-family: 'Kiwi Maru';
+      padding-top: 2%;
+      padding-bottom: 4%;
+      background: url(../img/triangle.svg);
+    }
+  }
+}
+
+
+/* ------ Media Queries ------ */
+
+@media screen and (min-width: 650px) {
+
+}
+
+
+/* ------ Animations ------ */
+
+.hidden {
+  opacity: 0;
+  filter: blur(2px);
+  transform: translateY(-10%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}

@@ -150,6 +150,7 @@ body {
   filter: blur(2px);
   transform: translateY(-10%);
   transition: all 1s;
+  transition-delay: 0.25s;
 }
 
 .show {
