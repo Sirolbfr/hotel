@@ -14,7 +14,6 @@ fetch("json/catering.json")
     display_menus(data[0], pt_dej);
     display_menus(data[1], dej);
     display_menus(data[2], diner);
-    display_menus(data[3], bar);
 })
 .catch(error => {
     console.error("Erreur lors de la récupération des données :", error);
@@ -26,6 +25,7 @@ function create_article(obj) {
     let art = document.createElement("article");
     art.classList.add('hidden');
     art.innerHTML = `
+        <h1>${a}</h1>
         <section>
             <img src=${obj.img} alt=img_test>
             <h2>Test H2</h2>
